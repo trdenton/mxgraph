@@ -406,8 +406,8 @@ Format.prototype.refresh = function()
 			});
 		}
 		
-		div.appendChild(label);
-		this.panels.push(new DiagramFormatPanel(this, ui, div));
+		//div.appendChild(label);
+		//this.panels.push(new DiagramFormatPanel(this, ui, div));
 	}
 	else if (graph.isEditing())
 	{
